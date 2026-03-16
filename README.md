@@ -1,17 +1,31 @@
-# AI Cancer Dosage Checker
+# 🧠 Mutation-Based Therapy Expert System for Colorectal Cancer
 
-AI-powered project to analyze colon cancer medication doses. Includes a recommendation system and expert system to ensure dosage compatibility with patient tissues and reduce side effects.
+## 🎯 Project Goal
+An interactive expert system designed to predict **patient response to cancer treatment** based on **molecular, clinical, and therapeutic** features.
 
-# Features
+The system simulates a **human clinical decision process** using **if-then rules** and knowledge extracted from real patient data.
 
-- Analyze patient medication doses using AI
-- Recommendation system for optimal dosage
-- Expert system to warn about potential side effects
-- Secure and effective patient data handling
+---
 
-# Technologies
+## 🧬 Features Used
 
-- Python
-- Machine Learning
-- Recommendation Algorithms / Expert Systems
-- Pandas / NumPy
+- **Mutational Data**
+  - KRAS/BRAF status, impact level, protein changes
+- **Immune Markers**
+  - MSI (Microsatellite Instability)
+  - Tumor Mutation Burden (TMB)
+- **Therapy History**
+  - Type of treatment
+  - Number of cycles
+  - Ongoing status
+- **Clinical Stage & Vital Data**
+  - AJCC stage, survival months, vital status
+  - Patient ID (used in ML-derived logic)
+
+---
+
+## ⚙️ How to Run
+
+```bash
+pip install experta
+python main.py
